@@ -32,9 +32,13 @@ export const DescriptionCourse = () => {
             </div>
             <div className='container py-2'>
                 <h2>Recursos Iniciales:</h2>
-                <p className='pt-3'><a href="https://www.youtube.com/watch?v=ZS9vOhfrvRw&ab_channel=EspeakEnglishAprenderIngl%C3%A9sR%C3%A1pidoyF%C3%A1cil">Números en Inglés</a></p>
+                <p className='pt-3'><a href="https://www.youtube.com/watch?v=ZS9vOhfrvRw&ab_channel=EspeakEnglishAprenderIngl%C3%A9sR%C3%A1pidoyF%C3%A1cil">Verbo To-be</a></p>
                 <p className='pt-1'><a href="https://www.youtube.com/watch?v=ZS9vOhfrvRw&ab_channel=EspeakEnglishAprenderIngl%C3%A9sR%C3%A1pidoyF%C3%A1cil">Presentaciones en Inglés</a></p>
-                <p className='pt-1'><a href="https://www.youtube.com/watch?v=ZS9vOhfrvRw&ab_channel=EspeakEnglishAprenderIngl%C3%A9sR%C3%A1pidoyF%C3%A1cil">La Hora en Inglés</a></p>
+                <p className='pt-1 pb-3'><a href="https://www.youtube.com/watch?v=ZS9vOhfrvRw&ab_channel=EspeakEnglishAprenderIngl%C3%A9sR%C3%A1pidoyF%C3%A1cil">Past and Present Tense</a></p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quam aperiam accusantium, fuga vero cum consequuntur ad tenetur harum asperiores numquam vitae ipsum, praesentium similique, et voluptas dolor deleniti saepe?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellat ea nulla, ratione expedita dolorem! Repudiandae, voluptatibus recusandae. Esse ipsam enim inventore harum possimus deserunt explicabo, nam ullam delectus totam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit perferendis vero quaerat cumque in molestiae pariatur nisi, aut ex vel assumenda exercitationem iure illo dolor sed! Id tempora pariatur molestias.</p>
             </div>           
         </div>
      </section>   

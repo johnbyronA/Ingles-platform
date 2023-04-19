@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 export const Header = () => {
 
 
   return (
     <>
+
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div className="container">
             <a className="navbar-brand" href="#">English Platform </a>
@@ -14,18 +17,19 @@ export const Header = () => {
         <div className="collapse navbar-collapse " id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Content</a>
+                <Link className='nav-link' aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">About us</a>
+                <Link className='nav-link' aria-current="page" to="/about">Ejercicios</Link>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Exercises</a>
+                <a className="nav-link" aria-current="page" href="#">Varios otros</a>
                 </li>
             </ul>
         </div>
         </div>
     </nav>
+
     </>
   )
 }

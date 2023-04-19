@@ -6,31 +6,21 @@ import { respuestas } from "./components/preguntas_respuestas";
 import { DescriptionCourse } from './components/DescriptionCourse';
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-
-
-
+import { ThemeContent } from "./components/ThemeContent";
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 export function App() {
-
-  const [entry, setentry] = useState([]);
-
-  const onAddEntry  = (newUserEntry) =>{
-    setentry([...entry,newUserEntry])
-  }
 
   return (
     <>
 
       <Header />
-      <DescriptionCourse />
 
-      {/* <Formulario onNewEntry ={onAddEntry} preguntas={preguntas.pregunta1} respuestas={respuestas.respuesta1} />
-      <Formulario onNewEntry ={onAddEntry} preguntas={preguntas.pregunta2} respuestas={respuestas.respuesta2}/>
-      <Formulario onNewEntry ={onAddEntry} preguntas={preguntas.pregunta3} respuestas={respuestas.respuesta3}/>
-      <Formulario onNewEntry ={onAddEntry} preguntas={preguntas.pregunta4} respuestas={respuestas.respuesta4}/>
-      <Formulario onNewEntry ={onAddEntry} preguntas={preguntas.pregunta5} respuestas={respuestas.respuesta5}/>
-      <Formulario onNewEntry ={onAddEntry} preguntas={preguntas.pregunta6} respuestas={respuestas.respuesta6}/> */}
-
+      <Routes>
+        <Route path="/" element={<DescriptionCourse />} />
+        <Route path="/about" element={<ThemeContent/>} />
+      </Routes>
+      
       <Footer/>
     </>
     
