@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./App.css"
+import "./app.css"
 import { Formulario } from "./components/Formulario";
 import { preguntas } from "./components/preguntas_respuestas";
 import { respuestas } from "./components/preguntas_respuestas";
@@ -15,7 +15,8 @@ export function App() {
 
   return (
     <>
-
+    <div className="containermain">
+      
       <Header />
 
       <Routes>
@@ -23,7 +24,12 @@ export function App() {
         <Route path="/about" element={<ThemeContent/>} />
         <Route path="/content" element={<Classmaterial/>} />
       </Routes>
+
+    </div>
+
       <Footer />
+
+    
     </>
     
   )
