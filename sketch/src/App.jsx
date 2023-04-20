@@ -8,7 +8,8 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { ThemeContent } from "./components/ThemeContent";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
-import { Pokeapi } from "./components/Pokeapi";
+import { Classmaterial } from "./components/Classmaterial";
+// import { Pokeapi } from "./components/Pokeapi";
 
 export function App() {
 
@@ -20,9 +21,9 @@ export function App() {
       <Routes>
         <Route path="/" element={<DescriptionCourse />} />
         <Route path="/about" element={<ThemeContent/>} />
-        <Route path="/test" element={<Pokeapi/>} />
+        <Route path="/content" element={<Classmaterial/>} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
     
   )

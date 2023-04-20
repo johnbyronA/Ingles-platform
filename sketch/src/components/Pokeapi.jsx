@@ -10,6 +10,10 @@ export function Pokeapi (props) {
     setvalorinput (event.target.value)
   };
 
+const log = () => {
+    console.log(pokemonData.name);
+};
+
   useEffect(() => {
     const fetchPokemonData = async () => {
       const response = await fetch('https://pokeapi.co/api/v2/pokemon/');
@@ -35,8 +39,7 @@ export function Pokeapi (props) {
             <div className='bg-primary container mt-2'>
                 <img className='bg-black pt-2 my-2' src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${1}.png`} alt={""}/>
                 <p>Este es un {pokemonData[0].name} </p>
-                <p></p>
-                
+                <button onClick={log}>Hundir</button>
 
             </div>
             

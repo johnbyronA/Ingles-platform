@@ -23,7 +23,7 @@ export const Header = () => {
                 <Link className='nav-link' aria-current="page" to="/about">Ejercicios</Link>
                 </li>
                 <li className="nav-item">
-                <Link className='nav-link' aria-current="page" to="/test">Pruebas funcionales</Link>
+                <Link className='nav-link' aria-current="page" to="/content">Material de clase</Link>
                 </li>
             </ul>
         </div>

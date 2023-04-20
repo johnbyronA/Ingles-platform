@@ -32,13 +32,13 @@ export const ThemeContent = () => {
             <Formulario onNewEntry ={onAddEntry} preguntas={preguntas.pregunta5} respuestas={respuestas.respuesta5}/>
             <Formulario onNewEntry ={onAddEntry} preguntas={preguntas.pregunta6} respuestas={respuestas.respuesta6}/>
             <hr />
-            <p>Respuestas Buenas:  </p>
+            <p>Gracias por tu participación !!</p>
 
           </div>
 
-          <div className=' col-sm-12 col-md-6 bg-primary d-flex justify-content-end align-items-center'>
+          <div className=' col-sm-12 col-md-6  d-flex justify-content-end align-items-end'>
             {/* <p>Has respondido {} preguntas correctas y {} preguntas incorrectas </p> */}
-            <img className='pt-4 ' src="../../public/images/womanwarrior-cleanedcolor.svg" alt="woman" />
+            <img className='pt-4' src="../../public/images/womanwarrior-cleanedcolor.svg" alt="woman" />
           </div>
           
         </div>

@@ -1,3 +1,47 @@
 img {
     height: 250px;
 }
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+th,
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+  }
+
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th:first-child,
+td:first-child {
+  border-left: 1px solid #ddd;
+}
+
+th:last-child,
+td:last-child {
+  border-right: 1px solid #ddd;
+}
